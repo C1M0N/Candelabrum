@@ -48,10 +48,10 @@
             <chunk name="Projection">
               <items count="2">
                 <item name="Target" type_name="gh_drawing_point" type_code="30">
-                  <X>1617</X>
-                  <Y>-963</Y>
+                  <X>992</X>
+                  <Y>-132</Y>
                 </item>
-                <item name="Zoom" type_name="gh_single" type_code="5">1.4604527</item>
+                <item name="Zoom" type_name="gh_single" type_code="5">0.7225001</item>
               </items>
             </chunk>
             <chunk name="Views">
@@ -68,9 +68,9 @@
         </chunk>
         <chunk name="DefinitionObjects">
           <items count="1">
-            <item name="ObjectCount" type_name="gh_int32" type_code="3">364</item>
+            <item name="ObjectCount" type_name="gh_int32" type_code="3">362</item>
           </items>
-          <chunks count="364">
+          <chunks count="362">
             <chunk name="Object" index="0">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
@@ -37374,328 +37374,64 @@ Bezier curve evaluator</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="9">
+                  <items count="10">
                     <item name="Description" type_name="gh_string" type_code="10">A panel for custom notes and text values</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">12dbe3e4-2926-4871-bcb9-1726b1f63bc4</item>
                     <item name="Name" type_name="gh_string" type_code="10">Panel</item>
                     <item name="NickName" type_name="gh_string" type_code="10"></item>
                     <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                     <item name="ScrollRatio" type_name="gh_double" type_code="6">0</item>
-                    <item name="Source" index="0" type_name="gh_guid" type_code="9">e73c2f20-e7ac-40e7-b95d-7b3c28d61482</item>
+                    <item name="Source" index="0" type_name="gh_guid" type_code="9">49f52abb-e635-4870-9f01-f0fc739a9cc9</item>
                     <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
                     <item name="UserText" type_name="gh_string" type_code="10">Double click to edit panel content…</item>
+                    <item name="WireDisplay" type_name="gh_int32" type_code="3">2</item>
                   </items>
                   <chunks count="2">
                     <chunk name="Attributes">
                       <items count="5">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>-447</X>
-                          <Y>825</Y>
-                          <W>160</W>
-                          <H>100</H>
+                          <X>-550</X>
+                          <Y>803</Y>
+                          <W>258</W>
+                          <H>68</H>
                         </item>
                         <item name="MarginLeft" type_name="gh_int32" type_code="3">0</item>
                         <item name="MarginRight" type_name="gh_int32" type_code="3">0</item>
                         <item name="MarginTop" type_name="gh_int32" type_code="3">0</item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>-446.2251</X>
-                          <Y>825.2334</Y>
+                          <X>-549.00323</X>
+                          <Y>803.58984</Y>
                         </item>
                       </items>
                     </chunk>
                     <chunk name="PanelProperties">
-                      <items count="7">
+                      <items count="8">
+                        <item name="Alignment" type_name="gh_int32" type_code="3">1</item>
                         <item name="Colour" type_name="gh_drawing_color" type_code="36">
-                          <ARGB>255;255;250;90</ARGB>
+                          <ARGB>0;42;0;255</ARGB>
                         </item>
-                        <item name="DrawIndices" type_name="gh_bool" type_code="1">true</item>
-                        <item name="DrawPaths" type_name="gh_bool" type_code="1">true</item>
+                        <item name="DrawIndices" type_name="gh_bool" type_code="1">false</item>
+                        <item name="DrawPaths" type_name="gh_bool" type_code="1">false</item>
                         <item name="Multiline" type_name="gh_bool" type_code="1">true</item>
                         <item name="SpecialCodes" type_name="gh_bool" type_code="1">false</item>
                         <item name="Stream" type_name="gh_bool" type_code="1">false</item>
-                        <item name="Wrap" type_name="gh_bool" type_code="1">true</item>
+                        <item name="Wrap" type_name="gh_bool" type_code="1">false</item>
                       </items>
+                      <chunks count="1">
+                        <chunk name="Font">
+                          <items count="3">
+                            <item name="Family" type_name="gh_string" type_code="10">Helvetica</item>
+                            <item name="Italic" type_name="gh_bool" type_code="1">true</item>
+                            <item name="Size" type_name="gh_single" type_code="5">30.5</item>
+                          </items>
+                        </chunk>
+                      </chunks>
                     </chunk>
                   </chunks>
                 </chunk>
               </chunks>
             </chunk>
             <chunk name="Object" index="357">
-              <items count="2">
-                <item name="GUID" type_name="gh_guid" type_code="9">1274d51a-81e6-4ccf-ad1f-0edf4c769cac</item>
-                <item name="Name" type_name="gh_string" type_code="10">Text Join</item>
-              </items>
-              <chunks count="1">
-                <chunk name="Container">
-                  <items count="4">
-                    <item name="Description" type_name="gh_string" type_code="10">Join a collection of text fragments into one</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">c761906f-83d2-4661-aeb6-64cff6caff29</item>
-                    <item name="Name" type_name="gh_string" type_code="10">Text Join</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">Join</item>
-                  </items>
-                  <chunks count="4">
-                    <chunk name="Attributes">
-                      <items count="2">
-                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>-546</X>
-                          <Y>820</Y>
-                          <W>55</W>
-                          <H>44</H>
-                        </item>
-                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>-520</X>
-                          <Y>842</Y>
-                        </item>
-                      </items>
-                    </chunk>
-                    <chunk name="param_input" index="0">
-                      <items count="13">
-                        <item name="Access" type_name="gh_int32" type_code="3">1</item>
-                        <item name="Description" type_name="gh_string" type_code="10">Text fragments to join.</item>
-                        <item name="InstanceGuid" type_name="gh_guid" type_code="9">9ab12431-5ace-4b97-b248-4e6972fd538b</item>
-                        <item name="Name" type_name="gh_string" type_code="10">Text</item>
-                        <item name="NickName" type_name="gh_string" type_code="10">T</item>
-                        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                        <item name="Source" index="0" type_name="gh_guid" type_code="9">005c6396-a85c-4d3e-998e-2ac42b2885b4</item>
-                        <item name="Source" index="1" type_name="gh_guid" type_code="9">d0fbe76a-a892-402e-96fa-44051d4ba317</item>
-                        <item name="Source" index="2" type_name="gh_guid" type_code="9">e27d4099-dfb6-4b09-98fb-a46161a25849</item>
-                        <item name="Source" index="3" type_name="gh_guid" type_code="9">e1e962bf-74a2-4b37-be82-35a2fa65ebb5</item>
-                        <item name="Source" index="4" type_name="gh_guid" type_code="9">6e71ff70-214e-4bec-a2f5-d51c5ca74048</item>
-                        <item name="Source" index="5" type_name="gh_guid" type_code="9">fef684dc-e652-469b-ad7e-93fa29859f3c</item>
-                        <item name="SourceCount" type_name="gh_int32" type_code="3">6</item>
-                      </items>
-                      <chunks count="1">
-                        <chunk name="Attributes">
-                          <items count="2">
-                            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>-544</X>
-                              <Y>822</Y>
-                              <W>9</W>
-                              <H>20</H>
-                            </item>
-                            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>-538</X>
-                              <Y>832</Y>
-                            </item>
-                          </items>
-                        </chunk>
-                      </chunks>
-                    </chunk>
-                    <chunk name="param_input" index="1">
-                      <items count="6">
-                        <item name="Description" type_name="gh_string" type_code="10">Fragment separator.</item>
-                        <item name="InstanceGuid" type_name="gh_guid" type_code="9">9c4fa875-4469-4aab-8592-e10895d362e4</item>
-                        <item name="Name" type_name="gh_string" type_code="10">Join</item>
-                        <item name="NickName" type_name="gh_string" type_code="10">J</item>
-                        <item name="Optional" type_name="gh_bool" type_code="1">true</item>
-                        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                      </items>
-                      <chunks count="1">
-                        <chunk name="Attributes">
-                          <items count="2">
-                            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>-544</X>
-                              <Y>842</Y>
-                              <W>9</W>
-                              <H>20</H>
-                            </item>
-                            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>-538</X>
-                              <Y>852</Y>
-                            </item>
-                          </items>
-                        </chunk>
-                      </chunks>
-                    </chunk>
-                    <chunk name="param_output" index="0">
-                      <items count="6">
-                        <item name="Description" type_name="gh_string" type_code="10">Resulting text</item>
-                        <item name="InstanceGuid" type_name="gh_guid" type_code="9">e73c2f20-e7ac-40e7-b95d-7b3c28d61482</item>
-                        <item name="Name" type_name="gh_string" type_code="10">Result</item>
-                        <item name="NickName" type_name="gh_string" type_code="10">R</item>
-                        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                      </items>
-                      <chunks count="1">
-                        <chunk name="Attributes">
-                          <items count="2">
-                            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>-505</X>
-                              <Y>822</Y>
-                              <W>12</W>
-                              <H>40</H>
-                            </item>
-                            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>-499</X>
-                              <Y>842</Y>
-                            </item>
-                          </items>
-                        </chunk>
-                      </chunks>
-                    </chunk>
-                  </chunks>
-                </chunk>
-              </chunks>
-            </chunk>
-            <chunk name="Object" index="358">
-              <items count="2">
-                <item name="GUID" type_name="gh_guid" type_code="9">59e0b89a-e487-49f8-bab8-b5bab16be14c</item>
-                <item name="Name" type_name="gh_string" type_code="10">Panel</item>
-              </items>
-              <chunks count="1">
-                <chunk name="Container">
-                  <items count="8">
-                    <item name="Description" type_name="gh_string" type_code="10">A panel for custom notes and text values</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">005c6396-a85c-4d3e-998e-2ac42b2885b4</item>
-                    <item name="Name" type_name="gh_string" type_code="10">Panel</item>
-                    <item name="NickName" type_name="gh_string" type_code="10"></item>
-                    <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                    <item name="ScrollRatio" type_name="gh_double" type_code="6">0</item>
-                    <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                    <item name="UserText" type_name="gh_string" type_code="10">Candelabrum
-</item>
-                  </items>
-                  <chunks count="2">
-                    <chunk name="Attributes">
-                      <items count="5">
-                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>-732</X>
-                          <Y>742</Y>
-                          <W>72</W>
-                          <H>20</H>
-                        </item>
-                        <item name="MarginLeft" type_name="gh_int32" type_code="3">0</item>
-                        <item name="MarginRight" type_name="gh_int32" type_code="3">0</item>
-                        <item name="MarginTop" type_name="gh_int32" type_code="3">0</item>
-                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>-731.7823</X>
-                          <Y>742.3025</Y>
-                        </item>
-                      </items>
-                    </chunk>
-                    <chunk name="PanelProperties">
-                      <items count="7">
-                        <item name="Colour" type_name="gh_drawing_color" type_code="36">
-                          <ARGB>255;255;250;90</ARGB>
-                        </item>
-                        <item name="DrawIndices" type_name="gh_bool" type_code="1">true</item>
-                        <item name="DrawPaths" type_name="gh_bool" type_code="1">true</item>
-                        <item name="Multiline" type_name="gh_bool" type_code="1">true</item>
-                        <item name="SpecialCodes" type_name="gh_bool" type_code="1">false</item>
-                        <item name="Stream" type_name="gh_bool" type_code="1">false</item>
-                        <item name="Wrap" type_name="gh_bool" type_code="1">true</item>
-                      </items>
-                    </chunk>
-                  </chunks>
-                </chunk>
-              </chunks>
-            </chunk>
-            <chunk name="Object" index="359">
-              <items count="2">
-                <item name="GUID" type_name="gh_guid" type_code="9">59e0b89a-e487-49f8-bab8-b5bab16be14c</item>
-                <item name="Name" type_name="gh_string" type_code="10">Panel</item>
-              </items>
-              <chunks count="1">
-                <chunk name="Container">
-                  <items count="8">
-                    <item name="Description" type_name="gh_string" type_code="10">A panel for custom notes and text values</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">d0fbe76a-a892-402e-96fa-44051d4ba317</item>
-                    <item name="Name" type_name="gh_string" type_code="10">Panel</item>
-                    <item name="NickName" type_name="gh_string" type_code="10"></item>
-                    <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                    <item name="ScrollRatio" type_name="gh_double" type_code="6">0</item>
-                    <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                    <item name="UserText" type_name="gh_string" type_code="10">Ver-</item>
-                  </items>
-                  <chunks count="2">
-                    <chunk name="Attributes">
-                      <items count="5">
-                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>-689</X>
-                          <Y>836</Y>
-                          <W>39</W>
-                          <H>20</H>
-                        </item>
-                        <item name="MarginLeft" type_name="gh_int32" type_code="3">0</item>
-                        <item name="MarginRight" type_name="gh_int32" type_code="3">0</item>
-                        <item name="MarginTop" type_name="gh_int32" type_code="3">0</item>
-                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>-688.6078</X>
-                          <Y>836.58997</Y>
-                        </item>
-                      </items>
-                    </chunk>
-                    <chunk name="PanelProperties">
-                      <items count="7">
-                        <item name="Colour" type_name="gh_drawing_color" type_code="36">
-                          <ARGB>255;255;250;90</ARGB>
-                        </item>
-                        <item name="DrawIndices" type_name="gh_bool" type_code="1">true</item>
-                        <item name="DrawPaths" type_name="gh_bool" type_code="1">true</item>
-                        <item name="Multiline" type_name="gh_bool" type_code="1">true</item>
-                        <item name="SpecialCodes" type_name="gh_bool" type_code="1">false</item>
-                        <item name="Stream" type_name="gh_bool" type_code="1">false</item>
-                        <item name="Wrap" type_name="gh_bool" type_code="1">true</item>
-                      </items>
-                    </chunk>
-                  </chunks>
-                </chunk>
-              </chunks>
-            </chunk>
-            <chunk name="Object" index="360">
-              <items count="2">
-                <item name="GUID" type_name="gh_guid" type_code="9">00027467-0d24-4fa7-b178-8dc0ac5f42ec</item>
-                <item name="Name" type_name="gh_string" type_code="10">Value List</item>
-              </items>
-              <chunks count="1">
-                <chunk name="Container">
-                  <items count="8">
-                    <item name="Description" type_name="gh_string" type_code="10">Provides a list of preset values to choose from</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">e27d4099-dfb6-4b09-98fb-a46161a25849</item>
-                    <item name="ListCount" type_name="gh_int32" type_code="3">3</item>
-                    <item name="ListMode" type_name="gh_int32" type_code="3">1</item>
-                    <item name="Name" type_name="gh_string" type_code="10">Value List</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">List</item>
-                    <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                    <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                  </items>
-                  <chunks count="4">
-                    <chunk name="ListItem" index="0">
-                      <items count="3">
-                        <item name="Expression" type_name="gh_string" type_code="10">"ALPHA.a."</item>
-                        <item name="Name" type_name="gh_string" type_code="10">ALPHA</item>
-                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
-                      </items>
-                    </chunk>
-                    <chunk name="ListItem" index="1">
-                      <items count="3">
-                        <item name="Expression" type_name="gh_string" type_code="10">"BETA.0."</item>
-                        <item name="Name" type_name="gh_string" type_code="10">BETA</item>
-                        <item name="Selected" type_name="gh_bool" type_code="1">false</item>
-                      </items>
-                    </chunk>
-                    <chunk name="ListItem" index="2">
-                      <items count="3">
-                        <item name="Expression" type_name="gh_string" type_code="10">"1."</item>
-                        <item name="Name" type_name="gh_string" type_code="10">&lt;Stable&gt;</item>
-                        <item name="Selected" type_name="gh_bool" type_code="1">false</item>
-                      </items>
-                    </chunk>
-                    <chunk name="Attributes">
-                      <items count="1">
-                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>-730</X>
-                          <Y>885</Y>
-                          <W>76</W>
-                          <H>22</H>
-                        </item>
-                      </items>
-                    </chunk>
-                  </chunks>
-                </chunk>
-              </chunks>
-            </chunk>
-            <chunk name="Object" index="361">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">bcac2747-348b-4edd-ae1f-77a782cebbdd</item>
                 <item name="Name" type_name="gh_string" type_code="10">Control Knob</item>
@@ -37718,20 +37454,20 @@ Bezier curve evaluator</item>
                         <item name="Maximum" type_name="gh_decimal" type_code="7">99</item>
                         <item name="Minimum" type_name="gh_decimal" type_code="7">0</item>
                         <item name="Range" type_name="gh_decimal" type_code="7">10</item>
-                        <item name="Value" type_name="gh_decimal" type_code="7">0</item>
+                        <item name="Value" type_name="gh_decimal" type_code="7">1</item>
                       </items>
                     </chunk>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>-637</X>
-                          <Y>996</Y>
+                          <X>-557</X>
+                          <Y>894</Y>
                           <W>100</W>
                           <H>100</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>-636.57855</X>
-                          <Y>996.7011</Y>
+                          <X>-556.4642</X>
+                          <Y>894.037</Y>
                         </item>
                       </items>
                     </chunk>
@@ -37739,7 +37475,7 @@ Bezier curve evaluator</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="362">
+            <chunk name="Object" index="358">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -37758,14 +37494,14 @@ Bezier curve evaluator</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>-764</X>
-                          <Y>946</Y>
+                          <X>-548</X>
+                          <Y>872</Y>
                           <W>157</W>
                           <H>20</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>-763.58124</X>
-                          <Y>946.62897</Y>
+                          <X>-547.80743</X>
+                          <Y>872.8034</Y>
                         </item>
                       </items>
                     </chunk>
@@ -37784,52 +37520,949 @@ Bezier curve evaluator</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="363">
+            <chunk name="Object" index="359">
               <items count="2">
-                <item name="GUID" type_name="gh_guid" type_code="9">59e0b89a-e487-49f8-bab8-b5bab16be14c</item>
-                <item name="Name" type_name="gh_string" type_code="10">Panel</item>
+                <item name="GUID" type_name="gh_guid" type_code="9">f31d8d7a-7536-4ac8-9c96-fde6ecda4d0a</item>
+                <item name="Name" type_name="gh_string" type_code="10">Cluster</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="8">
-                    <item name="Description" type_name="gh_string" type_code="10">A panel for custom notes and text values</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">6e71ff70-214e-4bec-a2f5-d51c5ca74048</item>
-                    <item name="Name" type_name="gh_string" type_code="10">Panel</item>
-                    <item name="NickName" type_name="gh_string" type_code="10"></item>
-                    <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                    <item name="ScrollRatio" type_name="gh_double" type_code="6">0</item>
-                    <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                    <item name="UserText" type_name="gh_string" type_code="10">.</item>
+                  <items count="6">
+                    <item name="ClusterDocument" type_name="gh_bytearray" type_code="20">
+                      <stream length="2444">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</stream>
+                    </item>
+                    <item name="Description" type_name="gh_string" type_code="10">Contains a cluster of Grasshopper components</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">4096951e-c87c-4410-83f7-3b591b0b6a98</item>
+                    <item name="Name" type_name="gh_string" type_code="10">Cluster</item>
+                    <item name="NickName" type_name="gh_string" type_code="10">Cluster</item>
+                    <item name="PreviewDocument" type_name="gh_bool" type_code="1">false</item>
                   </items>
-                  <chunks count="2">
-                    <chunk name="Attributes">
+                  <chunks count="3">
+                    <chunk name="ParamMap">
                       <items count="5">
+                        <item name="Count" type_name="gh_int32" type_code="3">2</item>
+                        <item name="Key" index="0" type_name="gh_guid" type_code="9">3b5cb03e-a865-4740-a15b-acbb8999f313</item>
+                        <item name="Key" index="1" type_name="gh_guid" type_code="9">49f52abb-e635-4870-9f01-f0fc739a9cc9</item>
+                        <item name="Value" index="0" type_name="gh_guid" type_code="9">b977bf09-44bb-478c-a656-631503e79be5</item>
+                        <item name="Value" index="1" type_name="gh_guid" type_code="9">0479006a-ed94-4847-a661-bb3df7b0051f</item>
+                      </items>
+                    </chunk>
+                    <chunk name="Attributes">
+                      <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>-587</X>
-                          <Y>959</Y>
-                          <W>50</W>
-                          <H>20</H>
+                          <X>-457</X>
+                          <Y>889</Y>
+                          <W>55</W>
+                          <H>28</H>
                         </item>
-                        <item name="MarginLeft" type_name="gh_int32" type_code="3">0</item>
-                        <item name="MarginRight" type_name="gh_int32" type_code="3">0</item>
-                        <item name="MarginTop" type_name="gh_int32" type_code="3">0</item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>-586.17847</X>
-                          <Y>959.05273</Y>
+                          <X>-431</X>
+                          <Y>903</Y>
                         </item>
                       </items>
                     </chunk>
-                    <chunk name="PanelProperties">
-                      <items count="7">
-                        <item name="Colour" type_name="gh_drawing_color" type_code="36">
-                          <ARGB>255;255;250;90</ARGB>
+                    <chunk name="ParameterData">
+                      <items count="4">
+                        <item name="InputCount" type_name="gh_int32" type_code="3">1</item>
+                        <item name="InputId" index="0" type_name="gh_guid" type_code="9">3ede854e-c753-40eb-84cb-b48008f14fd4</item>
+                        <item name="OutputCount" type_name="gh_int32" type_code="3">1</item>
+                        <item name="OutputId" index="0" type_name="gh_guid" type_code="9">3ede854e-c753-40eb-84cb-b48008f14fd4</item>
+                      </items>
+                      <chunks count="2">
+                        <chunk name="InputParam" index="0">
+                          <items count="10">
+                            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+                            <item name="Description" type_name="gh_string" type_code="10">Text fragments to join.</item>
+                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">3b5cb03e-a865-4740-a15b-acbb8999f313</item>
+                            <item name="Name" type_name="gh_string" type_code="10">Text</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">T</item>
+                            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+                            <item name="Source" index="0" type_name="gh_guid" type_code="9">e1e962bf-74a2-4b37-be82-35a2fa65ebb5</item>
+                            <item name="Source" index="1" type_name="gh_guid" type_code="9">fef684dc-e652-469b-ad7e-93fa29859f3c</item>
+                            <item name="SourceCount" type_name="gh_int32" type_code="3">2</item>
+                            <item name="WireDisplay" type_name="gh_int32" type_code="3">2</item>
+                          </items>
+                          <chunks count="1">
+                            <chunk name="Attributes">
+                              <items count="2">
+                                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                                  <X>-455</X>
+                                  <Y>891</Y>
+                                  <W>9</W>
+                                  <H>24</H>
+                                </item>
+                                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                                  <X>-449</X>
+                                  <Y>903</Y>
+                                </item>
+                              </items>
+                            </chunk>
+                          </chunks>
+                        </chunk>
+                        <chunk name="OutputParam" index="0">
+                          <items count="6">
+                            <item name="Description" type_name="gh_string" type_code="10">Resulting text</item>
+                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">49f52abb-e635-4870-9f01-f0fc739a9cc9</item>
+                            <item name="Name" type_name="gh_string" type_code="10">Result</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">R</item>
+                            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+                            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+                          </items>
+                          <chunks count="1">
+                            <chunk name="Attributes">
+                              <items count="2">
+                                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                                  <X>-416</X>
+                                  <Y>891</Y>
+                                  <W>12</W>
+                                  <H>24</H>
+                                </item>
+                                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                                  <X>-410</X>
+                                  <Y>903</Y>
+                                </item>
+                              </items>
+                            </chunk>
+                          </chunks>
+                        </chunk>
+                      </chunks>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="Object" index="360">
+              <items count="2">
+                <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
+                <item name="Name" type_name="gh_string" type_code="10">Group</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Container">
+                  <items count="12">
+                    <item name="Border" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Colour" type_name="gh_drawing_color" type_code="36">
+                      <ARGB>0;171;135;255</ARGB>
+                    </item>
+                    <item name="Description" type_name="gh_string" type_code="10">A group of Grasshopper objects</item>
+                    <item name="ID" index="0" type_name="gh_guid" type_code="9">12dbe3e4-2926-4871-bcb9-1726b1f63bc4</item>
+                    <item name="ID" index="1" type_name="gh_guid" type_code="9">fef684dc-e652-469b-ad7e-93fa29859f3c</item>
+                    <item name="ID" index="2" type_name="gh_guid" type_code="9">e1e962bf-74a2-4b37-be82-35a2fa65ebb5</item>
+                    <item name="ID" index="3" type_name="gh_guid" type_code="9">4096951e-c87c-4410-83f7-3b591b0b6a98</item>
+                    <item name="ID" index="4" type_name="gh_guid" type_code="9">2764d27b-52ff-42ac-9099-19c6d3b64d56</item>
+                    <item name="ID_Count" type_name="gh_int32" type_code="3">5</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">bbd2e87f-f274-4f83-8b17-d67e26e4f0c5</item>
+                    <item name="Name" type_name="gh_string" type_code="10">Group</item>
+                    <item name="NickName" type_name="gh_string" type_code="10"></item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Attributes" />
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="Object" index="361">
+              <items count="2">
+                <item name="GUID" type_name="gh_guid" type_code="9">2844fec5-142d-4381-bd5d-4cbcef6d6fed</item>
+                <item name="Name" type_name="gh_string" type_code="10">Sketch</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Container">
+                  <items count="5">
+                    <item name="Description" type_name="gh_string" type_code="10">A series of doodles</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">2764d27b-52ff-42ac-9099-19c6d3b64d56</item>
+                    <item name="MarkCount" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Name" type_name="gh_string" type_code="10">Sketch</item>
+                    <item name="NickName" type_name="gh_string" type_code="10">Sketch</item>
+                  </items>
+                  <chunks count="2">
+                    <chunk name="Attributes">
+                      <items count="1">
+                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                          <X>-449.45956</X>
+                          <Y>874.6481</Y>
+                          <W>158.4028</W>
+                          <H>118.913025</H>
                         </item>
-                        <item name="DrawIndices" type_name="gh_bool" type_code="1">true</item>
-                        <item name="DrawPaths" type_name="gh_bool" type_code="1">true</item>
-                        <item name="Multiline" type_name="gh_bool" type_code="1">true</item>
-                        <item name="SpecialCodes" type_name="gh_bool" type_code="1">false</item>
-                        <item name="Stream" type_name="gh_bool" type_code="1">false</item>
-                        <item name="Wrap" type_name="gh_bool" type_code="1">true</item>
+                      </items>
+                      <chunks count="1">
+                        <chunk name="SketchProperties">
+                          <items count="3">
+                            <item name="Color" type_name="gh_drawing_color" type_code="36">
+                              <ARGB>255;0;0;0</ARGB>
+                            </item>
+                            <item name="Pattern" type_name="gh_int32" type_code="3">2</item>
+                            <item name="Width" type_name="gh_single" type_code="5">3</item>
+                          </items>
+                        </chunk>
+                      </chunks>
+                    </chunk>
+                    <chunk name="Mark" index="0">
+                      <items count="192">
+                        <item name="V" index="0" type_name="gh_point2d" type_code="50">
+                          <X>-385.122314453125</X>
+                          <Y>876.4229125976562</Y>
+                        </item>
+                        <item name="V" index="1" type_name="gh_point2d" type_code="50">
+                          <X>-385.122314453125</X>
+                          <Y>878.6414184570312</Y>
+                        </item>
+                        <item name="V" index="2" type_name="gh_point2d" type_code="50">
+                          <X>-385.122314453125</X>
+                          <Y>880.8599853515625</Y>
+                        </item>
+                        <item name="V" index="3" type_name="gh_point2d" type_code="50">
+                          <X>-385.122314453125</X>
+                          <Y>883.522216796875</Y>
+                        </item>
+                        <item name="V" index="4" type_name="gh_point2d" type_code="50">
+                          <X>-385.122314453125</X>
+                          <Y>885.74072265625</Y>
+                        </item>
+                        <item name="V" index="5" type_name="gh_point2d" type_code="50">
+                          <X>-385.122314453125</X>
+                          <Y>887.959228515625</Y>
+                        </item>
+                        <item name="V" index="6" type_name="gh_point2d" type_code="50">
+                          <X>-385.122314453125</X>
+                          <Y>891.065185546875</Y>
+                        </item>
+                        <item name="V" index="7" type_name="gh_point2d" type_code="50">
+                          <X>-385.122314453125</X>
+                          <Y>893.28369140625</Y>
+                        </item>
+                        <item name="V" index="8" type_name="gh_point2d" type_code="50">
+                          <X>-385.122314453125</X>
+                          <Y>895.5022583007812</Y>
+                        </item>
+                        <item name="V" index="9" type_name="gh_point2d" type_code="50">
+                          <X>-385.122314453125</X>
+                          <Y>897.7207641601562</Y>
+                        </item>
+                        <item name="V" index="10" type_name="gh_point2d" type_code="50">
+                          <X>-385.122314453125</X>
+                          <Y>900.3829956054688</Y>
+                        </item>
+                        <item name="V" index="11" type_name="gh_point2d" type_code="50">
+                          <X>-385.122314453125</X>
+                          <Y>902.6015014648438</Y>
+                        </item>
+                        <item name="V" index="12" type_name="gh_point2d" type_code="50">
+                          <X>-385.122314453125</X>
+                          <Y>904.820068359375</Y>
+                        </item>
+                        <item name="V" index="13" type_name="gh_point2d" type_code="50">
+                          <X>-385.122314453125</X>
+                          <Y>907.03857421875</Y>
+                        </item>
+                        <item name="V" index="14" type_name="gh_point2d" type_code="50">
+                          <X>-385.122314453125</X>
+                          <Y>909.7008056640625</Y>
+                        </item>
+                        <item name="V" index="15" type_name="gh_point2d" type_code="50">
+                          <X>-385.122314453125</X>
+                          <Y>912.363037109375</Y>
+                        </item>
+                        <item name="V" index="16" type_name="gh_point2d" type_code="50">
+                          <X>-385.122314453125</X>
+                          <Y>914.58154296875</Y>
+                        </item>
+                        <item name="V" index="17" type_name="gh_point2d" type_code="50">
+                          <X>-385.122314453125</X>
+                          <Y>916.8001098632812</Y>
+                        </item>
+                        <item name="V" index="18" type_name="gh_point2d" type_code="50">
+                          <X>-385.122314453125</X>
+                          <Y>919.0186157226562</Y>
+                        </item>
+                        <item name="V" index="19" type_name="gh_point2d" type_code="50">
+                          <X>-385.122314453125</X>
+                          <Y>921.2371215820312</Y>
+                        </item>
+                        <item name="V" index="20" type_name="gh_point2d" type_code="50">
+                          <X>-385.5660095214844</X>
+                          <Y>923.4556884765625</Y>
+                        </item>
+                        <item name="V" index="21" type_name="gh_point2d" type_code="50">
+                          <X>-388.6719665527344</X>
+                          <Y>923.8993530273438</Y>
+                        </item>
+                        <item name="V" index="22" type_name="gh_point2d" type_code="50">
+                          <X>-391.3341979980469</X>
+                          <Y>923.4556884765625</Y>
+                        </item>
+                        <item name="V" index="23" type_name="gh_point2d" type_code="50">
+                          <X>-393.5527038574219</X>
+                          <Y>923.4556884765625</Y>
+                        </item>
+                        <item name="V" index="24" type_name="gh_point2d" type_code="50">
+                          <X>-395.771240234375</X>
+                          <Y>923.4556884765625</Y>
+                        </item>
+                        <item name="V" index="25" type_name="gh_point2d" type_code="50">
+                          <X>-397.9897766113281</X>
+                          <Y>924.3430786132812</Y>
+                        </item>
+                        <item name="V" index="26" type_name="gh_point2d" type_code="50">
+                          <X>-400.2082824707031</X>
+                          <Y>924.3430786132812</Y>
+                        </item>
+                        <item name="V" index="27" type_name="gh_point2d" type_code="50">
+                          <X>-404.6453552246094</X>
+                          <Y>924.3430786132812</Y>
+                        </item>
+                        <item name="V" index="28" type_name="gh_point2d" type_code="50">
+                          <X>-406.8638916015625</X>
+                          <Y>924.7868041992188</Y>
+                        </item>
+                        <item name="V" index="29" type_name="gh_point2d" type_code="50">
+                          <X>-409.0823974609375</X>
+                          <Y>924.7868041992188</Y>
+                        </item>
+                        <item name="V" index="30" type_name="gh_point2d" type_code="50">
+                          <X>-411.7446594238281</X>
+                          <Y>925.23046875</Y>
+                        </item>
+                        <item name="V" index="31" type_name="gh_point2d" type_code="50">
+                          <X>-414.4068908691406</X>
+                          <Y>925.23046875</Y>
+                        </item>
+                        <item name="V" index="32" type_name="gh_point2d" type_code="50">
+                          <X>-417.0691223144531</X>
+                          <Y>925.6741943359375</Y>
+                        </item>
+                        <item name="V" index="33" type_name="gh_point2d" type_code="50">
+                          <X>-421.0624694824219</X>
+                          <Y>926.117919921875</Y>
+                        </item>
+                        <item name="V" index="34" type_name="gh_point2d" type_code="50">
+                          <X>-423.2809753417969</X>
+                          <Y>926.117919921875</Y>
+                        </item>
+                        <item name="V" index="35" type_name="gh_point2d" type_code="50">
+                          <X>-425.4994812011719</X>
+                          <Y>926.117919921875</Y>
+                        </item>
+                        <item name="V" index="36" type_name="gh_point2d" type_code="50">
+                          <X>-427.7180480957031</X>
+                          <Y>926.117919921875</Y>
+                        </item>
+                        <item name="V" index="37" type_name="gh_point2d" type_code="50">
+                          <X>-430.3802795410156</X>
+                          <Y>926.117919921875</Y>
+                        </item>
+                        <item name="V" index="38" type_name="gh_point2d" type_code="50">
+                          <X>-432.5987854003906</X>
+                          <Y>926.117919921875</Y>
+                        </item>
+                        <item name="V" index="39" type_name="gh_point2d" type_code="50">
+                          <X>-436.1484069824219</X>
+                          <Y>926.117919921875</Y>
+                        </item>
+                        <item name="V" index="40" type_name="gh_point2d" type_code="50">
+                          <X>-438.3669738769531</X>
+                          <Y>926.117919921875</Y>
+                        </item>
+                        <item name="V" index="41" type_name="gh_point2d" type_code="50">
+                          <X>-440.5854797363281</X>
+                          <Y>927.0053100585938</Y>
+                        </item>
+                        <item name="V" index="42" type_name="gh_point2d" type_code="50">
+                          <X>-441.4728698730469</X>
+                          <Y>929.2238159179688</Y>
+                        </item>
+                        <item name="V" index="43" type_name="gh_point2d" type_code="50">
+                          <X>-442.8039855957031</X>
+                          <Y>931.8860473632812</Y>
+                        </item>
+                        <item name="V" index="44" type_name="gh_point2d" type_code="50">
+                          <X>-443.6914367675781</X>
+                          <Y>934.54833984375</Y>
+                        </item>
+                        <item name="V" index="45" type_name="gh_point2d" type_code="50">
+                          <X>-444.1351013183594</X>
+                          <Y>936.766845703125</Y>
+                        </item>
+                        <item name="V" index="46" type_name="gh_point2d" type_code="50">
+                          <X>-445.4662170410156</X>
+                          <Y>938.5416870117188</Y>
+                        </item>
+                        <item name="V" index="47" type_name="gh_point2d" type_code="50">
+                          <X>-445.4662170410156</X>
+                          <Y>941.2039184570312</Y>
+                        </item>
+                        <item name="V" index="48" type_name="gh_point2d" type_code="50">
+                          <X>-445.4662170410156</X>
+                          <Y>944.309814453125</Y>
+                        </item>
+                        <item name="V" index="49" type_name="gh_point2d" type_code="50">
+                          <X>-445.4662170410156</X>
+                          <Y>946.9720458984375</Y>
+                        </item>
+                        <item name="V" index="50" type_name="gh_point2d" type_code="50">
+                          <X>-445.9099426269531</X>
+                          <Y>951.4091186523438</Y>
+                        </item>
+                        <item name="V" index="51" type_name="gh_point2d" type_code="50">
+                          <X>-445.9099426269531</X>
+                          <Y>953.6276245117188</Y>
+                        </item>
+                        <item name="V" index="52" type_name="gh_point2d" type_code="50">
+                          <X>-445.9099426269531</X>
+                          <Y>956.2898559570312</Y>
+                        </item>
+                        <item name="V" index="53" type_name="gh_point2d" type_code="50">
+                          <X>-446.3536682128906</X>
+                          <Y>958.5084228515625</Y>
+                        </item>
+                        <item name="V" index="54" type_name="gh_point2d" type_code="50">
+                          <X>-446.7973327636719</X>
+                          <Y>962.0580444335938</Y>
+                        </item>
+                        <item name="V" index="55" type_name="gh_point2d" type_code="50">
+                          <X>-447.2410583496094</X>
+                          <Y>964.7202758789062</Y>
+                        </item>
+                        <item name="V" index="56" type_name="gh_point2d" type_code="50">
+                          <X>-447.2410583496094</X>
+                          <Y>967.3825073242188</Y>
+                        </item>
+                        <item name="V" index="57" type_name="gh_point2d" type_code="50">
+                          <X>-447.2410583496094</X>
+                          <Y>969.6010131835938</Y>
+                        </item>
+                        <item name="V" index="58" type_name="gh_point2d" type_code="50">
+                          <X>-447.2410583496094</X>
+                          <Y>971.819580078125</Y>
+                        </item>
+                        <item name="V" index="59" type_name="gh_point2d" type_code="50">
+                          <X>-447.2410583496094</X>
+                          <Y>974.4818115234375</Y>
+                        </item>
+                        <item name="V" index="60" type_name="gh_point2d" type_code="50">
+                          <X>-447.2410583496094</X>
+                          <Y>976.7003173828125</Y>
+                        </item>
+                        <item name="V" index="61" type_name="gh_point2d" type_code="50">
+                          <X>-447.2410583496094</X>
+                          <Y>978.9188232421875</Y>
+                        </item>
+                        <item name="V" index="62" type_name="gh_point2d" type_code="50">
+                          <X>-447.6847839355469</X>
+                          <Y>981.1373901367188</Y>
+                        </item>
+                        <item name="V" index="63" type_name="gh_point2d" type_code="50">
+                          <X>-449.0158996582031</X>
+                          <Y>982.9121704101562</Y>
+                        </item>
+                        <item name="V" index="64" type_name="gh_point2d" type_code="50">
+                          <X>-449.4595642089844</X>
+                          <Y>985.1307373046875</Y>
+                        </item>
+                        <item name="V" index="65" type_name="gh_point2d" type_code="50">
+                          <X>-449.0158996582031</X>
+                          <Y>987.3492431640625</Y>
+                        </item>
+                        <item name="V" index="66" type_name="gh_point2d" type_code="50">
+                          <X>-448.1284484863281</X>
+                          <Y>989.5677490234375</Y>
+                        </item>
+                        <item name="V" index="67" type_name="gh_point2d" type_code="50">
+                          <X>-445.4662170410156</X>
+                          <Y>991.7863159179688</Y>
+                        </item>
+                        <item name="V" index="68" type_name="gh_point2d" type_code="50">
+                          <X>-443.2477111816406</X>
+                          <Y>992.6737060546875</Y>
+                        </item>
+                        <item name="V" index="69" type_name="gh_point2d" type_code="50">
+                          <X>-441.0292053222656</X>
+                          <Y>993.117431640625</Y>
+                        </item>
+                        <item name="V" index="70" type_name="gh_point2d" type_code="50">
+                          <X>-438.8106384277344</X>
+                          <Y>993.117431640625</Y>
+                        </item>
+                        <item name="V" index="71" type_name="gh_point2d" type_code="50">
+                          <X>-436.5921325683594</X>
+                          <Y>992.22998046875</Y>
+                        </item>
+                        <item name="V" index="72" type_name="gh_point2d" type_code="50">
+                          <X>-433.9299011230469</X>
+                          <Y>992.22998046875</Y>
+                        </item>
+                        <item name="V" index="73" type_name="gh_point2d" type_code="50">
+                          <X>-431.7113952636719</X>
+                          <Y>992.22998046875</Y>
+                        </item>
+                        <item name="V" index="74" type_name="gh_point2d" type_code="50">
+                          <X>-427.2743225097656</X>
+                          <Y>992.22998046875</Y>
+                        </item>
+                        <item name="V" index="75" type_name="gh_point2d" type_code="50">
+                          <X>-425.0558166503906</X>
+                          <Y>991.7863159179688</Y>
+                        </item>
+                        <item name="V" index="76" type_name="gh_point2d" type_code="50">
+                          <X>-422.8372497558594</X>
+                          <Y>991.7863159179688</Y>
+                        </item>
+                        <item name="V" index="77" type_name="gh_point2d" type_code="50">
+                          <X>-418.4002380371094</X>
+                          <Y>991.7863159179688</Y>
+                        </item>
+                        <item name="V" index="78" type_name="gh_point2d" type_code="50">
+                          <X>-414.8505554199219</X>
+                          <Y>991.3425903320312</Y>
+                        </item>
+                        <item name="V" index="79" type_name="gh_point2d" type_code="50">
+                          <X>-411.7446594238281</X>
+                          <Y>991.3425903320312</Y>
+                        </item>
+                        <item name="V" index="80" type_name="gh_point2d" type_code="50">
+                          <X>-409.526123046875</X>
+                          <Y>991.3425903320312</Y>
+                        </item>
+                        <item name="V" index="81" type_name="gh_point2d" type_code="50">
+                          <X>-406.8638916015625</X>
+                          <Y>991.3425903320312</Y>
+                        </item>
+                        <item name="V" index="82" type_name="gh_point2d" type_code="50">
+                          <X>-405.08905029296875</X>
+                          <Y>992.6737060546875</Y>
+                        </item>
+                        <item name="V" index="83" type_name="gh_point2d" type_code="50">
+                          <X>-399.76458740234375</X>
+                          <Y>992.22998046875</Y>
+                        </item>
+                        <item name="V" index="84" type_name="gh_point2d" type_code="50">
+                          <X>-396.2149353027344</X>
+                          <Y>992.22998046875</Y>
+                        </item>
+                        <item name="V" index="85" type_name="gh_point2d" type_code="50">
+                          <X>-392.6653137207031</X>
+                          <Y>992.22998046875</Y>
+                        </item>
+                        <item name="V" index="86" type_name="gh_point2d" type_code="50">
+                          <X>-390.0030822753906</X>
+                          <Y>992.6737060546875</Y>
+                        </item>
+                        <item name="V" index="87" type_name="gh_point2d" type_code="50">
+                          <X>-387.7845458984375</X>
+                          <Y>992.6737060546875</Y>
+                        </item>
+                        <item name="V" index="88" type_name="gh_point2d" type_code="50">
+                          <X>-384.6786193847656</X>
+                          <Y>992.22998046875</Y>
+                        </item>
+                        <item name="V" index="89" type_name="gh_point2d" type_code="50">
+                          <X>-382.4600830078125</X>
+                          <Y>992.22998046875</Y>
+                        </item>
+                        <item name="V" index="90" type_name="gh_point2d" type_code="50">
+                          <X>-379.7978515625</X>
+                          <Y>991.7863159179688</Y>
+                        </item>
+                        <item name="V" index="91" type_name="gh_point2d" type_code="50">
+                          <X>-375.3608093261719</X>
+                          <Y>991.7863159179688</Y>
+                        </item>
+                        <item name="V" index="92" type_name="gh_point2d" type_code="50">
+                          <X>-371.3674621582031</X>
+                          <Y>991.3425903320312</Y>
+                        </item>
+                        <item name="V" index="93" type_name="gh_point2d" type_code="50">
+                          <X>-366.9303894042969</X>
+                          <Y>990.8988647460938</Y>
+                        </item>
+                        <item name="V" index="94" type_name="gh_point2d" type_code="50">
+                          <X>-363.3807373046875</X>
+                          <Y>990.4552001953125</Y>
+                        </item>
+                        <item name="V" index="95" type_name="gh_point2d" type_code="50">
+                          <X>-360.718505859375</X>
+                          <Y>990.4552001953125</Y>
+                        </item>
+                        <item name="V" index="96" type_name="gh_point2d" type_code="50">
+                          <X>-362.9370422363281</X>
+                          <Y>993.5610961914062</Y>
+                        </item>
+                        <item name="V" index="97" type_name="gh_point2d" type_code="50">
+                          <X>-359.83111572265625</X>
+                          <Y>992.6737060546875</Y>
+                        </item>
+                        <item name="V" index="98" type_name="gh_point2d" type_code="50">
+                          <X>-354.50665283203125</X>
+                          <Y>992.22998046875</Y>
+                        </item>
+                        <item name="V" index="99" type_name="gh_point2d" type_code="50">
+                          <X>-350.5133056640625</X>
+                          <Y>991.7863159179688</Y>
+                        </item>
+                        <item name="V" index="100" type_name="gh_point2d" type_code="50">
+                          <X>-347.85107421875</X>
+                          <Y>991.7863159179688</Y>
+                        </item>
+                        <item name="V" index="101" type_name="gh_point2d" type_code="50">
+                          <X>-345.6325378417969</X>
+                          <Y>991.7863159179688</Y>
+                        </item>
+                        <item name="V" index="102" type_name="gh_point2d" type_code="50">
+                          <X>-342.0828857421875</X>
+                          <Y>991.7863159179688</Y>
+                        </item>
+                        <item name="V" index="103" type_name="gh_point2d" type_code="50">
+                          <X>-339.420654296875</X>
+                          <Y>992.22998046875</Y>
+                        </item>
+                        <item name="V" index="104" type_name="gh_point2d" type_code="50">
+                          <X>-335.42730712890625</X>
+                          <Y>991.7863159179688</Y>
+                        </item>
+                        <item name="V" index="105" type_name="gh_point2d" type_code="50">
+                          <X>-332.76507568359375</X>
+                          <Y>991.3425903320312</Y>
+                        </item>
+                        <item name="V" index="106" type_name="gh_point2d" type_code="50">
+                          <X>-330.10284423828125</X>
+                          <Y>991.3425903320312</Y>
+                        </item>
+                        <item name="V" index="107" type_name="gh_point2d" type_code="50">
+                          <X>-327.8843078613281</X>
+                          <Y>990.4552001953125</Y>
+                        </item>
+                        <item name="V" index="108" type_name="gh_point2d" type_code="50">
+                          <X>-325.6658020019531</X>
+                          <Y>989.5677490234375</Y>
+                        </item>
+                        <item name="V" index="109" type_name="gh_point2d" type_code="50">
+                          <X>-319.8976135253906</X>
+                          <Y>988.6803588867188</Y>
+                        </item>
+                        <item name="V" index="110" type_name="gh_point2d" type_code="50">
+                          <X>-316.79168701171875</X>
+                          <Y>988.2366333007812</Y>
+                        </item>
+                        <item name="V" index="111" type_name="gh_point2d" type_code="50">
+                          <X>-314.5731506347656</X>
+                          <Y>987.79296875</Y>
+                        </item>
+                        <item name="V" index="112" type_name="gh_point2d" type_code="50">
+                          <X>-311.46722412109375</X>
+                          <Y>987.3492431640625</Y>
+                        </item>
+                        <item name="V" index="113" type_name="gh_point2d" type_code="50">
+                          <X>-308.3612976074219</X>
+                          <Y>986.905517578125</Y>
+                        </item>
+                        <item name="V" index="114" type_name="gh_point2d" type_code="50">
+                          <X>-305.6990661621094</X>
+                          <Y>986.905517578125</Y>
+                        </item>
+                        <item name="V" index="115" type_name="gh_point2d" type_code="50">
+                          <X>-303.03680419921875</X>
+                          <Y>986.0181274414062</Y>
+                        </item>
+                        <item name="V" index="116" type_name="gh_point2d" type_code="50">
+                          <X>-300.37457275390625</X>
+                          <Y>986.0181274414062</Y>
+                        </item>
+                        <item name="V" index="117" type_name="gh_point2d" type_code="50">
+                          <X>-298.15606689453125</X>
+                          <Y>985.5744018554688</Y>
+                        </item>
+                        <item name="V" index="118" type_name="gh_point2d" type_code="50">
+                          <X>-295.9375305175781</X>
+                          <Y>986.0181274414062</Y>
+                        </item>
+                        <item name="V" index="119" type_name="gh_point2d" type_code="50">
+                          <X>-293.718994140625</X>
+                          <Y>986.0181274414062</Y>
+                        </item>
+                        <item name="V" index="120" type_name="gh_point2d" type_code="50">
+                          <X>-291.50048828125</X>
+                          <Y>986.0181274414062</Y>
+                        </item>
+                        <item name="V" index="121" type_name="gh_point2d" type_code="50">
+                          <X>-291.0567626953125</X>
+                          <Y>983.7996215820312</Y>
+                        </item>
+                        <item name="V" index="122" type_name="gh_point2d" type_code="50">
+                          <X>-291.0567626953125</X>
+                          <Y>981.5810546875</Y>
+                        </item>
+                        <item name="V" index="123" type_name="gh_point2d" type_code="50">
+                          <X>-291.9441833496094</X>
+                          <Y>978.9188232421875</Y>
+                        </item>
+                        <item name="V" index="124" type_name="gh_point2d" type_code="50">
+                          <X>-292.38787841796875</X>
+                          <Y>976.7003173828125</Y>
+                        </item>
+                        <item name="V" index="125" type_name="gh_point2d" type_code="50">
+                          <X>-292.38787841796875</X>
+                          <Y>974.4818115234375</Y>
+                        </item>
+                        <item name="V" index="126" type_name="gh_point2d" type_code="50">
+                          <X>-292.38787841796875</X>
+                          <Y>972.2632446289062</Y>
+                        </item>
+                        <item name="V" index="127" type_name="gh_point2d" type_code="50">
+                          <X>-292.38787841796875</X>
+                          <Y>970.0447387695312</Y>
+                        </item>
+                        <item name="V" index="128" type_name="gh_point2d" type_code="50">
+                          <X>-292.38787841796875</X>
+                          <Y>967.8262329101562</Y>
+                        </item>
+                        <item name="V" index="129" type_name="gh_point2d" type_code="50">
+                          <X>-292.38787841796875</X>
+                          <Y>965.1640014648438</Y>
+                        </item>
+                        <item name="V" index="130" type_name="gh_point2d" type_code="50">
+                          <X>-292.38787841796875</X>
+                          <Y>962.9454345703125</Y>
+                        </item>
+                        <item name="V" index="131" type_name="gh_point2d" type_code="50">
+                          <X>-292.38787841796875</X>
+                          <Y>960.283203125</Y>
+                        </item>
+                        <item name="V" index="132" type_name="gh_point2d" type_code="50">
+                          <X>-291.50048828125</X>
+                          <Y>958.064697265625</Y>
+                        </item>
+                        <item name="V" index="133" type_name="gh_point2d" type_code="50">
+                          <X>-291.0567626953125</X>
+                          <Y>955.84619140625</Y>
+                        </item>
+                        <item name="V" index="134" type_name="gh_point2d" type_code="50">
+                          <X>-291.0567626953125</X>
+                          <Y>953.6276245117188</Y>
+                        </item>
+                        <item name="V" index="135" type_name="gh_point2d" type_code="50">
+                          <X>-291.0567626953125</X>
+                          <Y>950.9653930664062</Y>
+                        </item>
+                        <item name="V" index="136" type_name="gh_point2d" type_code="50">
+                          <X>-291.0567626953125</X>
+                          <Y>946.9720458984375</Y>
+                        </item>
+                        <item name="V" index="137" type_name="gh_point2d" type_code="50">
+                          <X>-291.0567626953125</X>
+                          <Y>944.7535400390625</Y>
+                        </item>
+                        <item name="V" index="138" type_name="gh_point2d" type_code="50">
+                          <X>-291.0567626953125</X>
+                          <Y>942.5350341796875</Y>
+                        </item>
+                        <item name="V" index="139" type_name="gh_point2d" type_code="50">
+                          <X>-291.9441833496094</X>
+                          <Y>939.872802734375</Y>
+                        </item>
+                        <item name="V" index="140" type_name="gh_point2d" type_code="50">
+                          <X>-292.38787841796875</X>
+                          <Y>934.9920043945312</Y>
+                        </item>
+                        <item name="V" index="141" type_name="gh_point2d" type_code="50">
+                          <X>-292.38787841796875</X>
+                          <Y>932.7734985351562</Y>
+                        </item>
+                        <item name="V" index="142" type_name="gh_point2d" type_code="50">
+                          <X>-292.38787841796875</X>
+                          <Y>930.1112670898438</Y>
+                        </item>
+                        <item name="V" index="143" type_name="gh_point2d" type_code="50">
+                          <X>-292.38787841796875</X>
+                          <Y>927.8927001953125</Y>
+                        </item>
+                        <item name="V" index="144" type_name="gh_point2d" type_code="50">
+                          <X>-292.38787841796875</X>
+                          <Y>925.23046875</Y>
+                        </item>
+                        <item name="V" index="145" type_name="gh_point2d" type_code="50">
+                          <X>-292.38787841796875</X>
+                          <Y>923.011962890625</Y>
+                        </item>
+                        <item name="V" index="146" type_name="gh_point2d" type_code="50">
+                          <X>-292.83160400390625</X>
+                          <Y>917.2437744140625</Y>
+                        </item>
+                        <item name="V" index="147" type_name="gh_point2d" type_code="50">
+                          <X>-293.2752990722656</X>
+                          <Y>912.8067626953125</Y>
+                        </item>
+                        <item name="V" index="148" type_name="gh_point2d" type_code="50">
+                          <X>-293.2752990722656</X>
+                          <Y>910.5881958007812</Y>
+                        </item>
+                        <item name="V" index="149" type_name="gh_point2d" type_code="50">
+                          <X>-293.2752990722656</X>
+                          <Y>907.9259643554688</Y>
+                        </item>
+                        <item name="V" index="150" type_name="gh_point2d" type_code="50">
+                          <X>-293.2752990722656</X>
+                          <Y>905.2637329101562</Y>
+                        </item>
+                        <item name="V" index="151" type_name="gh_point2d" type_code="50">
+                          <X>-293.2752990722656</X>
+                          <Y>902.1578369140625</Y>
+                        </item>
+                        <item name="V" index="152" type_name="gh_point2d" type_code="50">
+                          <X>-293.718994140625</X>
+                          <Y>898.608154296875</Y>
+                        </item>
+                        <item name="V" index="153" type_name="gh_point2d" type_code="50">
+                          <X>-294.6064147949219</X>
+                          <Y>896.3896484375</Y>
+                        </item>
+                        <item name="V" index="154" type_name="gh_point2d" type_code="50">
+                          <X>-294.6064147949219</X>
+                          <Y>893.7274169921875</Y>
+                        </item>
+                        <item name="V" index="155" type_name="gh_point2d" type_code="50">
+                          <X>-294.6064147949219</X>
+                          <Y>890.6214599609375</Y>
+                        </item>
+                        <item name="V" index="156" type_name="gh_point2d" type_code="50">
+                          <X>-294.6064147949219</X>
+                          <Y>887.959228515625</Y>
+                        </item>
+                        <item name="V" index="157" type_name="gh_point2d" type_code="50">
+                          <X>-294.6064147949219</X>
+                          <Y>885.74072265625</Y>
+                        </item>
+                        <item name="V" index="158" type_name="gh_point2d" type_code="50">
+                          <X>-294.6064147949219</X>
+                          <Y>883.522216796875</Y>
+                        </item>
+                        <item name="V" index="159" type_name="gh_point2d" type_code="50">
+                          <X>-295.49383544921875</X>
+                          <Y>881.3036499023438</Y>
+                        </item>
+                        <item name="V" index="160" type_name="gh_point2d" type_code="50">
+                          <X>-298.5997619628906</X>
+                          <Y>879.5288696289062</Y>
+                        </item>
+                        <item name="V" index="161" type_name="gh_point2d" type_code="50">
+                          <X>-300.81829833984375</X>
+                          <Y>879.0851440429688</Y>
+                        </item>
+                        <item name="V" index="162" type_name="gh_point2d" type_code="50">
+                          <X>-303.48052978515625</X>
+                          <Y>878.6414184570312</Y>
+                        </item>
+                        <item name="V" index="163" type_name="gh_point2d" type_code="50">
+                          <X>-305.6990661621094</X>
+                          <Y>878.6414184570312</Y>
+                        </item>
+                        <item name="V" index="164" type_name="gh_point2d" type_code="50">
+                          <X>-308.3612976074219</X>
+                          <Y>878.6414184570312</Y>
+                        </item>
+                        <item name="V" index="165" type_name="gh_point2d" type_code="50">
+                          <X>-311.0235290527344</X>
+                          <Y>878.6414184570312</Y>
+                        </item>
+                        <item name="V" index="166" type_name="gh_point2d" type_code="50">
+                          <X>-314.12945556640625</X>
+                          <Y>878.19775390625</Y>
+                        </item>
+                        <item name="V" index="167" type_name="gh_point2d" type_code="50">
+                          <X>-316.3479919433594</X>
+                          <Y>878.19775390625</Y>
+                        </item>
+                        <item name="V" index="168" type_name="gh_point2d" type_code="50">
+                          <X>-318.5664978027344</X>
+                          <Y>877.7540283203125</Y>
+                        </item>
+                        <item name="V" index="169" type_name="gh_point2d" type_code="50">
+                          <X>-321.2287292480469</X>
+                          <Y>877.7540283203125</Y>
+                        </item>
+                        <item name="V" index="170" type_name="gh_point2d" type_code="50">
+                          <X>-326.5531921386719</X>
+                          <Y>876.8666381835938</Y>
+                        </item>
+                        <item name="V" index="171" type_name="gh_point2d" type_code="50">
+                          <X>-329.6591491699219</X>
+                          <Y>876.4229125976562</Y>
+                        </item>
+                        <item name="V" index="172" type_name="gh_point2d" type_code="50">
+                          <X>-334.09619140625</X>
+                          <Y>875.9791870117188</Y>
+                        </item>
+                        <item name="V" index="173" type_name="gh_point2d" type_code="50">
+                          <X>-336.3147277832031</X>
+                          <Y>875.9791870117188</Y>
+                        </item>
+                        <item name="V" index="174" type_name="gh_point2d" type_code="50">
+                          <X>-338.53326416015625</X>
+                          <Y>875.9791870117188</Y>
+                        </item>
+                        <item name="V" index="175" type_name="gh_point2d" type_code="50">
+                          <X>-340.75177001953125</X>
+                          <Y>875.5355224609375</Y>
+                        </item>
+                        <item name="V" index="176" type_name="gh_point2d" type_code="50">
+                          <X>-343.41400146484375</X>
+                          <Y>875.091796875</Y>
+                        </item>
+                        <item name="V" index="177" type_name="gh_point2d" type_code="50">
+                          <X>-346.07623291015625</X>
+                          <Y>875.091796875</Y>
+                        </item>
+                        <item name="V" index="178" type_name="gh_point2d" type_code="50">
+                          <X>-348.2947692871094</X>
+                          <Y>875.091796875</Y>
+                        </item>
+                        <item name="V" index="179" type_name="gh_point2d" type_code="50">
+                          <X>-350.9570007324219</X>
+                          <Y>875.091796875</Y>
+                        </item>
+                        <item name="V" index="180" type_name="gh_point2d" type_code="50">
+                          <X>-353.175537109375</X>
+                          <Y>875.091796875</Y>
+                        </item>
+                        <item name="V" index="181" type_name="gh_point2d" type_code="50">
+                          <X>-358.0562744140625</X>
+                          <Y>874.6480712890625</Y>
+                        </item>
+                        <item name="V" index="182" type_name="gh_point2d" type_code="50">
+                          <X>-360.718505859375</X>
+                          <Y>874.6480712890625</Y>
+                        </item>
+                        <item name="V" index="183" type_name="gh_point2d" type_code="50">
+                          <X>-363.824462890625</X>
+                          <Y>874.6480712890625</Y>
+                        </item>
+                        <item name="V" index="184" type_name="gh_point2d" type_code="50">
+                          <X>-367.81781005859375</X>
+                          <Y>874.6480712890625</Y>
+                        </item>
+                        <item name="V" index="185" type_name="gh_point2d" type_code="50">
+                          <X>-370.48004150390625</X>
+                          <Y>874.6480712890625</Y>
+                        </item>
+                        <item name="V" index="186" type_name="gh_point2d" type_code="50">
+                          <X>-372.6985778808594</X>
+                          <Y>874.6480712890625</Y>
+                        </item>
+                        <item name="V" index="187" type_name="gh_point2d" type_code="50">
+                          <X>-375.3608093261719</X>
+                          <Y>874.6480712890625</Y>
+                        </item>
+                        <item name="V" index="188" type_name="gh_point2d" type_code="50">
+                          <X>-377.5793151855469</X>
+                          <Y>874.6480712890625</Y>
+                        </item>
+                        <item name="V" index="189" type_name="gh_point2d" type_code="50">
+                          <X>-381.5726623535156</X>
+                          <Y>875.091796875</Y>
+                        </item>
+                        <item name="V" index="190" type_name="gh_point2d" type_code="50">
+                          <X>-383.79119873046875</X>
+                          <Y>875.5355224609375</Y>
+                        </item>
+                        <item name="VertexCount" type_name="gh_int32" type_code="3">191</item>
                       </items>
                     </chunk>
                   </chunks>
@@ -37843,7 +38476,7 @@ Bezier curve evaluator</item>
     <chunk name="Thumbnail">
       <items count="1">
         <item name="Thumbnail" type_name="gh_drawing_bitmap" type_code="37">
-          <bitmap length="4932">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</bitmap>
+          <bitmap length="8312">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</bitmap>
         </item>
       </items>
     </chunk>
